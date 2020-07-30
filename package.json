@@ -1,0 +1,12 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build src/input-styles.css -o public/output-styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,24 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+/*
+    You can add styles to the default
+    classes using directives
+
+    '@apply' is a directive that applies
+    the styles defined in '@tailwind' above
+*/
+.btn {
+    @apply px-4 py-2 font-bold rounded;
+}
+
+.btn-blue {
+    @apply text-white bg-blue-500;
+}
+
+.btn-blue:hover {
+    @apply bg-blue-400;
+}
